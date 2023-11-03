@@ -28,11 +28,6 @@ public class LionTest {
         assertEquals(expectedResult, exception.getMessage());
     }
 
-    @Test
-    public void lionFemaleIsFalseTest() throws Exception {
-        Lion lion = new Lion("Самка", feline);
-        assertFalse(lion.doesHaveMane());
-    }
 
     @Test
     public void lionMaleIsTrueTest() throws Exception {

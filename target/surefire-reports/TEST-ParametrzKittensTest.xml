@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="4" failures="0" name="LionTest" time="0.002" errors="0" skipped="0">
+<testsuite tests="4" failures="0" name="ParametrzKittensTest" time="0.002" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="11.0.21+9-LTS"/>
@@ -62,8 +62,8 @@
     <property name="sun.desktop" value="gnome"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="LionTest" name="incorrectLionSexTest" time="0"/>
-  <testcase classname="LionTest" name="lionFoodIsMeatTest" time="0"/>
-  <testcase classname="LionTest" name="getKittensTest" time="0"/>
-  <testcase classname="LionTest" name="lionMaleIsTrueTest" time="0.002"/>
+  <testcase classname="ParametrzKittensTest" name="kittensQuantityTest[0]" time="0.001"/>
+  <testcase classname="ParametrzKittensTest" name="kittensQuantityTest[1]" time="0"/>
+  <testcase classname="ParametrzKittensTest" name="kittensQuantityTest[2]" time="0"/>
+  <testcase classname="ParametrzKittensTest" name="kittensQuantityTest[3]" time="0.001"/>
 </testsuite>
