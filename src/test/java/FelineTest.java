@@ -15,4 +15,11 @@ public class FelineTest {
         List<String> expectedResult = List.of("Животные", "Птицы", "Рыба");
         assertEquals(expectedResult, feline.eatMeat());
     }
+    @Test
+    public void getKittenValueFelineTest() {
+        Feline feline = new Feline();
+        int expectedCount = 1;
+        int actualCount = feline.getKittens();
+        assertEquals(expectedCount, actualCount);
+    }
 }
